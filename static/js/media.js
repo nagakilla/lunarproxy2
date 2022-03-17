@@ -23,7 +23,7 @@ try {
       function loadRuf(game){
         gf.type="application/x-shockwave-flash";
         var ele1=document.createElement("script");
-        ele1.setAttribute("src","./static/assets/ruffle/ruffle.js"),
+        ele1.setAttribute("src","../assets/ruffle/ruffle.js"),
         parent.document.body.appendChild(ele1),gf.src=game}
         //Media Search
         document.getElementById("gSearch").addEventListener("input", () => {
